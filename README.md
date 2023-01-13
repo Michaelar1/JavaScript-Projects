@@ -2,6 +2,7 @@
 This repository contains all of the JavaScript projects I have done through The Tech Academy's JavaScript Course.
 
 ## Projects
+* [Dictionary Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project4_dictionaries)
 * [Math Operations Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project3_math_operations)
 * [Function Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Function_Challenge)
 * [Functions Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects)
@@ -9,6 +10,9 @@ This repository contains all of the JavaScript projects I have done through The 
 * [Concatenated String Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Concatenated%20_String_Challenge)
 * [String Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/String_Assignment)
 * [Alert and Expressions Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project1_expressions_alert)
+
+### Dictionary Project
+  In this project, I created a dictionary with JavaScript, called the dictionary function in HTML, and then went back into JavaScript and deleted the KVP being called by the funciton with a delete statement.
 
 ### Math Operations Project
   In this project I created math functions in JavaScript and called them in HTML. In this I used addition, subtraction, multiplication, division, order of operations, unary operator, increment, decrement, and a random number generator. To call these functions, I used document.getElementById, document.write, and window.alert in combonation with the onload, onlclik, ondblckick, oncontextmenu, onmouseover, and onmouseout events.
