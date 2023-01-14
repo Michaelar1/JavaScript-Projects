@@ -2,6 +2,7 @@
 This repository contains all of the JavaScript projects I have done through The Tech Academy's JavaScript Course.
 
 ## Projects
+* [Keyword Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Keyword_Assignment)
 * [Voting Age Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Ternary_Operators_Challenge)
 * [Comparisons, Type, and Coercion Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project5_comparisons_type_coercion)
 * [Boolean Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Boolean_Challenge)
@@ -14,6 +15,9 @@ This repository contains all of the JavaScript projects I have done through The 
 * [Concatenated String Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Concatenated%20_String_Challenge)
 * [String Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/String_Assignment)
 * [Alert and Expressions Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project1_expressions_alert)
+
+### Keyword Assignment
+  This assignment was a simple practice of object constructors and their use. Here I use both "this" and "new" keywords. 
 
 ### Voting Age Challenge
   In this challenge, I used a ternary operator to create a functional HTML document that is able to receive input for an age and return whether or not that person is old enough to vote.
