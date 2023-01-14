@@ -2,6 +2,7 @@
 This repository contains all of the JavaScript projects I have done through The Tech Academy's JavaScript Course.
 
 ## Projects
+* [Comparisons, Type, and Coercion Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project5_comparisons_type_coercion)
 * [Boolean Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Boolean_Challenge)
 * [Not a Number Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/NAN_Challenge)
 * [Dictionary Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project4_dictionaries)
@@ -13,7 +14,10 @@ This repository contains all of the JavaScript projects I have done through The 
 * [String Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/String_Assignment)
 * [Alert and Expressions Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project1_expressions_alert)
 
-# Boolean Challenge
+### Comparisons, Type, and Coercion Project
+  In this project, I used the typeof operator, combine a string and a number in an expression, have the browser display Infinity and -Infinity, use boolean logic, use both the == and the == operators, use && and || operators, and use the ! operator.
+
+### Boolean Challenge
   In this challenge, using the console.log() method, I made the browser's Developer Tools console display "false" using Boolean Logic.
 
 ### Not a Number Challenge
