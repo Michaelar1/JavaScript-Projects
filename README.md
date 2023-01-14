@@ -2,6 +2,7 @@
 This repository contains all of the JavaScript projects I have done through The Tech Academy's JavaScript Course.
 
 ## Projects
+* [Reserved Keyword Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Reserved_Keyword_Challenge)
 * [Keyword Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Keyword_Assignment)
 * [Voting Age Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Ternary_Operators_Challenge)
 * [Comparisons, Type, and Coercion Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project5_comparisons_type_coercion)
@@ -16,6 +17,9 @@ This repository contains all of the JavaScript projects I have done through The 
 * [String Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/String_Assignment)
 * [Alert and Expressions Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project1_expressions_alert)
 
+### Reserved Keyword Challenge
+  For this challenge, I assigned a variable the value of a reserved word to see the results - the event does not work. Also, I wrote an object constructor function.
+  
 ### Keyword Assignment
   This assignment was a simple practice of object constructors and their use. Here I use both "this" and "new" keywords. 
 
