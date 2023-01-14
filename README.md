@@ -2,7 +2,7 @@
 This repository contains all of the JavaScript projects I have done through The Tech Academy's JavaScript Course.
 
 ## Projects
-* {Boolean Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Boolean_Challenge)
+* [Boolean Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Boolean_Challenge)
 * [Not a Number Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/NAN_Challenge)
 * [Dictionary Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project4_dictionaries)
 * [Math Operations Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project3_math_operations)
