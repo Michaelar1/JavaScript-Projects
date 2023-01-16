@@ -35,7 +35,12 @@ function stringMethod() {       //Return a number (717) as a string.
     document.getElementById("NumToString").innerHTML = Y.toString();
 }
 
-function precisionFormat() {
+function precisionFormat() {    //Format the first 50 digits of pi to the first 25 digits of pi.
     var X = 3.14159265358979323846264338327950288419716939937510;
     document.getElementById("Pie").innerHTML = X.toPrecision(25);
 }    
+
+function Fixed() {              //Here I am rounding Pi to the nearest two decimals (3.14); the result will be a string rather than a number data type.
+    var N = 3.141592654
+    document.getElementById("Pie2").innerHTML = N.toFixed(2);
+}
