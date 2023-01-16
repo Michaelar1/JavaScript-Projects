@@ -2,6 +2,7 @@
 This repository contains all of the JavaScript projects I have done through The Tech Academy's JavaScript Course.
 
 ## Projects
+* [String and Number Methods](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project8_string_methods)
 * [Scope, Time, and Function Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project7_scope_time_function)
 * [Ternary Operators and Constructors Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project6_ternary__operators_constructions)
 * [Reserved Keyword Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Reserved_Keyword_Challenge)
@@ -18,6 +19,9 @@ This repository contains all of the JavaScript projects I have done through The 
 * [Concatenated String Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Concatenated%20_String_Challenge)
 * [String Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/String_Assignment)
 * [Alert and Expressions Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project1_expressions_alert)
+
+### String and Number Methods Project
+  In this HTML and JavaScript Project, I wrote functions with various string and number methods. Included methods are: concat(), slice(), toUpperCase(), search(), toString(), toPrecision(), toFixed(), and valueOf().
 
 ### Scope, Time, and Function Project
   In this HTML and JavaScript Project, I wrote a function using a global variable, wrote a function using a local variable, intentionally wrote a function that had an error that would display in the Console, and wrote functions with if, else, and if else statements. I also used "new Date().getHours()" in two functions to pull the time from the user's computer.
