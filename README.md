@@ -2,6 +2,7 @@
 This repository contains all of the JavaScript projects I have done through The Tech Academy's JavaScript Course.
 
 ## Projects
+* [Scope, Time, and Function Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project7_scope_time_function)
 * [Ternary Operators and Constructors Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project6_ternary__operators_constructions)
 * [Reserved Keyword Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Reserved_Keyword_Challenge)
 * [Keyword Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Keyword_Assignment)
@@ -17,6 +18,9 @@ This repository contains all of the JavaScript projects I have done through The 
 * [Concatenated String Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Concatenated%20_String_Challenge)
 * [String Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/String_Assignment)
 * [Alert and Expressions Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project1_expressions_alert)
+
+### Scope, Time, and Function Project
+  In this HTML and JavaScript Project, I wrote a function using a global variable, wrote a function using a local variable, intentionally wrote a function that had an error that would display in the Console, and wrote functions with if, else, and if else statements. I also used "new Date().getHours()" in two functions to pull the time from the user's computer.
 
 ### Ternary Operators and Constructors Project
   In this HTML and JavaScript Project, I used a ternary operator, an object constructor, and a nested function.
