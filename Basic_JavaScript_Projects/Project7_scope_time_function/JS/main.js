@@ -28,3 +28,14 @@ function compareNum() { //Write an if statement.
         document.getElementById("greater").innerHTML = "739 is greater than 100."
     }
 }
+
+function Spoiler_Function() {   //Write an else statement
+    Agree = document.getElementById("Dragon").value;
+    if (Agree == "YES") {
+        Spoiler = "You do not have to worry about spoilers.";
+    }
+    else {
+        Spoiler = "Please watch the whole season before visiting this site.";
+    }
+    document.getElementById("Spoiler_Alert").innerHTML = Spoiler;
+}
