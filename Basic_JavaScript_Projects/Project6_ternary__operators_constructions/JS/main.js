@@ -16,3 +16,11 @@ var Diane = new Dog("Labrador Retriever", 7, "Chocolate");
 function myFunction() {
     document.getElementById("New_and_This").innerHTML = "Diane has a " + Diane.Dog_Color + " " + Diane.Dog_Breed + " that is " + Diane.Dog_Age + " years old.";
 }
+
+//Nested Function
+function square_add() {
+    function square(x) {
+        return x * x;
+    }
+   document.getElementById("Nested_Function").innerHTML = square(5) + square(6);
+}
