@@ -2,6 +2,7 @@
 This repository contains all of the JavaScript projects I have done through The Tech Academy's JavaScript Course.
 
 ## Projects
+* [Ternary Operators and Constructors Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project6_ternary__operators_constructions)
 * [Reserved Keyword Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Reserved_Keyword_Challenge)
 * [Keyword Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Keyword_Assignment)
 * [Voting Age Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Ternary_Operators_Challenge)
@@ -16,6 +17,9 @@ This repository contains all of the JavaScript projects I have done through The 
 * [Concatenated String Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Concatenated%20_String_Challenge)
 * [String Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/String_Assignment)
 * [Alert and Expressions Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project1_expressions_alert)
+
+### Ternary Operators and Constructors Project
+  In this HTML and JavaScript Project, I used a ternary operator, an object constructor, and a nested function.
 
 ### Reserved Keyword Challenge
   For this challenge, I assigned a variable the value of a reserved word to see the results - the event does not work. Also, I wrote an object constructor function.
