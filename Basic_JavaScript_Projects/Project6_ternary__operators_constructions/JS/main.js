@@ -18,9 +18,11 @@ function myFunction() {
 }
 
 //Nested Function
-function square_add() {
-    function square(x) {
+function square_add() { //Create square_add function
+    a = document.getElementById("square").value; //Acquire value a from HTML input
+    b = document.getElementById("square2").value; //Acquire value b from HTML input
+    function square(x) { //Create square funcion
         return x * x;
     }
-   document.getElementById("Nested_Function").innerHTML = square(5) + square(6);
+   document.getElementById("Nested_Function").innerHTML = square(a) + square(b); //Sqare a and b and then add the squares
 }
