@@ -44,3 +44,8 @@ function Fixed() {              //Here I am rounding Pi to the nearest two decim
     var N = 3.141592654
     document.getElementById("Pie2").innerHTML = N.toFixed(2);
 }
+
+function valueMethod() {        //Here I am returning the data type of number as its primitive value of 3.14
+    var Z = 3.14
+    document.getElementById("prim").innerHTML = Z.valueOf();
+}
