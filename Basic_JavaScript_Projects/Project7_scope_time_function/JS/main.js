@@ -16,3 +16,9 @@ function noWork() {     //Intentionally write a function with an error in it and
     console.log(Y / Z);
 }
 noWork();               //Console reads "Uncaught ReferenceError: Z is not defined at noWork (main.js:16:21) at main.js:18:1"
+
+function get_Date() {   //Write a function with an if statement that utilizes the new Date().getHours()method
+    if(new Date().getHours() < 16) {
+        document.getElementById("Greeting").innerHTML = "Shouldn't you be studying?";
+    }
+}
