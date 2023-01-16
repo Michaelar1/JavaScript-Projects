@@ -22,3 +22,9 @@ function get_Date() {   //Write a function with an if statement that utilizes th
         document.getElementById("Greeting").innerHTML = "Shouldn't you be studying?";
     }
 }
+
+function compareNum() { //Write an if statement.
+    if (Y > 100) {
+        document.getElementById("greater").innerHTML = "739 is greater than 100."
+    }
+}
