@@ -24,8 +24,18 @@ function Upper() {              //Transform all text in a string to upper case
     document.getElementById("DudeAbides").innerHTML = A.toUpperCase();
 }
 
-function find() {
+function find() {               //Search the string to find the position of the first occurance of that value.
     var S = "I keep a bag of oranges in my kitchen at all times!";
     var position = S.search("oranges");
     document.getElementById("Oranges").innerHTML = position;
 }
+
+function stringMethod() {       //Return a number (717) as a string.
+    var Y = 717;
+    document.getElementById("NumToString").innerHTML = Y.toString();
+}
+
+function precisionFormat() {
+    var X = 3.14159265358979323846264338327950288419716939937510;
+    document.getElementById("Pie").innerHTML = X.toPrecision(25);
+}    
