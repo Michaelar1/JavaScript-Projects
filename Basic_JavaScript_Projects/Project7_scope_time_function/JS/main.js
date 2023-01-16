@@ -39,3 +39,18 @@ function Spoiler_Function() {   //Write an else statement
     }
     document.getElementById("Spoiler_Alert").innerHTML = Spoiler;
 }
+
+function Time_function() {              //Write an else if statement
+    var Time = new Date().getHours();   //Establishes variable Time by pulling the time from the user's computer
+    var Reply;                          //Declares Reply variable that changes depending upon the time.
+    if (Time < 12 == Time > 0) {        //If the time is before noon and after midnight, it is morning.
+        Reply = "It is morning time!";
+    }
+    else if (Time >= 12 == Time < 18) {  //If the time is noon or later but before 6PM, it is the afternoon.
+        Reply = "It is afternoon.";
+    }
+    else {
+        Reply = "It is evening time.";   //Else, if none of the above are true, it is evening.   
+    }
+    document.getElementById("Time_of_day").innerHTML = Reply;
+}
