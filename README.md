@@ -2,7 +2,7 @@
 This repository contains all of the JavaScript projects I have done through The Tech Academy's JavaScript Course.
 
 ## Projects
-* [Countdown and Slideshow Project(https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project9_countdown_slideshow)
+* [Countdown and Slideshow Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project9_countdown_slideshow)
 * [String and Number Methods](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project8_string_methods)
 * [Scope, Time, and Function Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project7_scope_time_function)
 * [Ternary Operators and Constructors Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project6_ternary__operators_constructions)
