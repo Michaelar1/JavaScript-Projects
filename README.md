@@ -2,6 +2,7 @@
 This repository contains all of the JavaScript projects I have done through The Tech Academy's JavaScript Course.
 
 ## Projects
+* [Defer Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Defer_Challenge)
 * [Asynch Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Async_Assignment)
 * [Countdown and Slideshow Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project9_countdown_slideshow)
 * [String and Number Methods](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project8_string_methods)
@@ -21,6 +22,9 @@ This repository contains all of the JavaScript projects I have done through The 
 * [Concatenated String Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Concatenated%20_String_Challenge)
 * [String Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/String_Assignment)
 * [Alert and Expressions Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project1_expressions_alert)
+
+### Defer Challenge
+  This was a simple HTML and JavaScript challenge to create HTML code effectively using the defer attribute.
 
 ### Asynch Assignment
   This was a simple HTML and JavaScript assignment using the async attribute.
