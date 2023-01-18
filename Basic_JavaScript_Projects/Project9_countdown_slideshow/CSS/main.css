@@ -45,6 +45,7 @@
 
 /* Caption Text */
 .text {
+    font-family: 'Albert Sans', sans-serif;
     color: #f2f2f2;
     font-size: 15px;
     padding: 8px 12px;
