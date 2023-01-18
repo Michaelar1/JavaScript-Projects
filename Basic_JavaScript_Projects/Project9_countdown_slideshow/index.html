@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Countdown Slideshow</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Michaela R">
+        <link rel="stylesheet" type="text/css" href="./CSS/main.css">
+    </head>
+
+    <body>
+        <div>
+            <p>How many seconds would you like to set your alarm for?</p>
+            <input id="seconds" value="">
+            <button onclick="countdown()">Click Here</button>
+            <p id="timer"></p>
+        </div>
+
+        <!-- Slideshow -->
+        <!-- Slideshow Container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 7</div>
+                <img src="./img/Aarhus.jpg" style="width:100%" alt="Aarhus">
+                <div class="text">Aarhus</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 7</div>
+                <img src="./img/countryside.jpg" style="width:100%" alt="Danish Countryside">
+                <div class="text">The Danish Countryside</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 7</div>
+                <img src="./img/den_lille_havfrue.jpg" style="width:100%" alt="Den Lille Havfrue">
+                <div class="text">Den Lille Havfrue (The Little Mermaid)</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 7</div>
+                <img src="./img/kobenhavn.jpg" style="width:100%" alt="Copenhagen">
+                <div class="text">K&#248;benhavn (Copenhagen)</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 7</div>
+                <img src="./img/odense.jpg" style="width:100%" alt="Odense">
+                <div class="text">Odense</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 7</div>
+                <img src="./img/skagen.jpg" style="width:100%" alt="Skagen">
+                <div class="text">Skagen - Where the Seas Meet</div>
+            </div>
+           
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 7</div>
+                <img src="./img/vejle.jp.jpg" style="width:100%" alt="Vejle">
+                <div class="text">Vejle</div>
+            </div>
+
+            <!-- Next and Previous Buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a> 
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+        </div>
+
+        <!-- JavaScript -->
+        <script src="./JS/main.js"></script>
+    </body>
+
+</html>
