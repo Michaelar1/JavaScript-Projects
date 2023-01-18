@@ -2,6 +2,7 @@
 This repository contains all of the JavaScript projects I have done through The Tech Academy's JavaScript Course.
 
 ## Projects
+* [Countdown and Slideshow Project(https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project9_countdown_slideshow)
 * [String and Number Methods](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project8_string_methods)
 * [Scope, Time, and Function Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project7_scope_time_function)
 * [Ternary Operators and Constructors Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project6_ternary__operators_constructions)
@@ -19,6 +20,9 @@ This repository contains all of the JavaScript projects I have done through The 
 * [Concatenated String Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Concatenated%20_String_Challenge)
 * [String Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/String_Assignment)
 * [Alert and Expressions Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project1_expressions_alert)
+
+### Countdown and Slideshow Project
+  This project was in HTML, CSS, and JavaScript. It includes a countdown timer featuring an if loop and an alert. This also includes a slideshow that incorporates all three languages and features an if loop, a for loop, the document.getElementsByClassName() method, and fading and hover animation effects.
 
 ### String and Number Methods Project
   In this HTML and JavaScript Project, I wrote functions with various string and number methods. Included methods are: concat(), slice(), toUpperCase(), search(), toString(), toPrecision(), toFixed(), and valueOf().
