@@ -2,6 +2,7 @@
 This repository contains all of the JavaScript projects I have done through The Tech Academy's JavaScript Course.
 
 ## Projects
+* [Asynch Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Async_Assignment)
 * [Countdown and Slideshow Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project9_countdown_slideshow)
 * [String and Number Methods](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project8_string_methods)
 * [Scope, Time, and Function Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project7_scope_time_function)
@@ -20,6 +21,9 @@ This repository contains all of the JavaScript projects I have done through The 
 * [Concatenated String Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Concatenated%20_String_Challenge)
 * [String Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/String_Assignment)
 * [Alert and Expressions Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project1_expressions_alert)
+
+### Asynch Assignment
+  This was a simple HTML and JavaScript assignment using the async attribute.
 
 ### Countdown and Slideshow Project
   This project was in HTML, CSS, and JavaScript. It includes a countdown timer featuring an if loop and an alert. This also includes a slideshow that incorporates all three languages and features an if loop, a for loop, the document.getElementsByClassName() method, and fading and hover animation effects.
