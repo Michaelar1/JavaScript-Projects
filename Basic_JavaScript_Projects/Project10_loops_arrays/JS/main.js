@@ -14,3 +14,14 @@ function lengthProperty() {
     var text = "My name is Michaela.";
     document.getElementById("length").innerHTML = text.length;
 }
+
+//For Loop
+var Instruments = ["Guitar", "Drums", "Flute", "Bagpipes", "Piano", "Violin", "Bass", "Trumpet", "French Horn", "Viola", "Oboe", "Clarinet", "Ukulele", "Castinettes", "Basoon", "Trombone", "Saxophone"];
+var Content = "";
+var Y;
+function for_Loop() {
+    for (Y = 0; Y < Instruments.length; Y++) {
+        Content += Instruments[Y] + "<br>";
+    }
+    document.getElementById("List_of_Instruments").innerHTML = Content;
+}
