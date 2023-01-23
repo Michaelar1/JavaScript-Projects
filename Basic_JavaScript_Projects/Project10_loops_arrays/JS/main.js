@@ -25,3 +25,15 @@ function for_Loop() {
     }
     document.getElementById("List_of_Instruments").innerHTML = Content;
 }
+
+
+//Array/document.getElementById
+function array_Function() {
+    var toDo = [];
+    toDo[0] = "Study JavaScript";
+    toDo[1] = "Fold Laundry";
+    toDo[2] = "Study Danish";
+    toDo[3] = "Call my Mom";
+    toDo[4] = "Bake a cake";
+    document.getElementById("Array").innerHTML = "Today I have to: " + toDo[0] + ".";
+}
