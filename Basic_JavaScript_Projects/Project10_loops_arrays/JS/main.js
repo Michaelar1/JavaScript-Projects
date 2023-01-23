@@ -10,13 +10,13 @@ function Call_Loop() {
 }
 
 //Length Property
-function lengthProperty() {
+function lengthProperty() {     //This function returns the length of the text string.
     var text = "My name is Michaela.";
     document.getElementById("length").innerHTML = text.length;
 }
 
 //For Loop
-var Instruments = ["Guitar", "Drums", "Flute", "Bagpipes", "Piano", "Violin", "Bass", "Trumpet", "French Horn", "Viola", "Oboe", "Clarinet", "Ukulele", "Castinettes", "Basoon", "Trombone", "Saxophone"];
+var Instruments = ["Guitar", "Drums", "Flute", "Bagpipes", "Piano", "Violin", "Bass", "Trumpet", "French Horn", "Viola", "Oboe", "Clarinet", "Ukulele", "Castinettes", "Basoon", "Trombone", "Saxophone"];      //This function will print a list of musical instruments.
 var Content = "";
 var Y;
 function for_Loop() {
@@ -39,10 +39,21 @@ function array_Function() {     //This function uses an array of To Do list item
 }
 
 //const function
-function constant_function() {
+function constant_function() {      //This sets a constant, "bicycle" and adds properties and values. 
     const bicycle = {brand:"Liv", model:"Avail AR 3", color:"Terra Roza", price: "$1450"};
     bicycle.color = "Ocean Wave";
     bicycle.size = "Small";
     bicycle.availability = "Available";
     document.getElementById("Constant").innerHTML = "This bicycle is a " + bicycle.brand + " " + bicycle.model + "." 
+}
+
+//let keyword function
+function variableFunction() {       //This demonstrates the block scope of the let keyword
+    var Z = 75 + 11;                //Here, I assign an expression to Z
+    document.getElementById("Z1").innerHTML = Z;
+    {
+        let Z = 853;                //Here, I assign a number to Z that is not of the same value assigned earlier.
+        document.getElementById("Z2").innerHTML = Z;
+    }
+    document.getElementById("Z3").innerHTML = Z;
 }
