@@ -28,7 +28,7 @@ function for_Loop() {
 
 
 //Array/document.getElementById
-function array_Function() {
+function array_Function() {     //This function uses an array of To Do list items and returns one of the list items.
     var toDo = [];
     toDo[0] = "Study JavaScript";
     toDo[1] = "Fold Laundry";
@@ -36,4 +36,13 @@ function array_Function() {
     toDo[3] = "Call my Mom";
     toDo[4] = "Bake a cake";
     document.getElementById("Array").innerHTML = "Today I have to: " + toDo[0] + ".";
+}
+
+//const function
+function constant_function() {
+    const bicycle = {brand:"Liv", model:"Avail AR 3", color:"Terra Roza", price: "$1450"};
+    bicycle.color = "Ocean Wave";
+    bicycle.size = "Small";
+    bicycle.availability = "Available";
+    document.getElementById("Constant").innerHTML = "This bicycle is a " + bicycle.brand + " " + bicycle.model + "." 
 }
