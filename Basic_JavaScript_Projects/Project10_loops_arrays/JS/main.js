@@ -63,3 +63,16 @@ function oilerFunction() {      //This function returns Euler's number; I discov
     return Math.E;
 }
 document.getElementById("oiler").innerHTML = oilerFunction();  
+
+
+//Creating an object
+let painting = {                         //This object describes a painting that will display with HTML
+    title: "Fra et romersk osteria",    //These are all properties
+    artist: "Carl Bloch",
+    medium: "Oil on Canvas",
+    year: "1886",
+    description: function() {           //This is the method.
+        return "This painting is called " + this.title + ". It was painted by " + this.artist + " in " + this.year + " using " + this.medium + "."
+    }
+};
+document.getElementById("paintingObject").innerHTML = painting.description();
