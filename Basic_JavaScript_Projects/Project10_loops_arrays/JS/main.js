@@ -57,3 +57,9 @@ function variableFunction() {       //This demonstrates the block scope of the l
     }
     document.getElementById("Z3").innerHTML = Z;
 }
+
+//Return Statement
+function oilerFunction() {      //This function returns Euler's number; I discovered that apparently, "Euler" is a reserved word and thus had to change it to "oiler" to get the function to work.
+    return Math.E;
+}
+document.getElementById("oiler").innerHTML = oilerFunction();  
