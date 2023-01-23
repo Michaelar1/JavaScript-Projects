@@ -76,3 +76,25 @@ let painting = {                         //This object describes a painting that
     }
 };
 document.getElementById("paintingObject").innerHTML = painting.description();
+
+//Break Statement function
+function countToFive() {        //I used the count_To_Ten() function from the While Loops lesson, but I added the break to show that it can stop the function from counting all the way to ten.
+    let digit = "";
+    let X = 1;
+    while (X < 11) {
+        if (X === 6) {break;}   //Right here, I'm telling the function that once it reaches 6, it should stop.
+        digit += "<br>" + X;
+        X++;
+    }
+    document.getElementById("jumpOut").innerHTML = digit;
+}
+
+//Continue Statement Function
+function countToTen() {         //For whatever reason, this refused to work in a while loop, so I wrote basically the same function using a for loop and it worked fine.        
+    let digit = "";
+    for (i = 1; i <11; i++) {
+        if(i === 5){continue;} //Right here, I'm telling the function to skip over 5, so it would print 4 then 6.
+       digit += "<br>" + i;
+    }
+    document.getElementById("jumpOver").innerHTML = digit;
+}
