@@ -18,7 +18,7 @@ function menuFunction() {
         case "burger":
             orderOutput = "The Black Bean Burger" + OrderString;
         break;
-        default:
+        default:        //Technically, with the <select> menu, this default statement is unnecessary, but I added it regardless for the practice.
             orderOutput = "Please enter the number of the item on the menu - not the item itself.";            
     }
     document.getElementById("output").innerHTML = orderOutput;
