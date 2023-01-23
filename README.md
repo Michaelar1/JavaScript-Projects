@@ -2,6 +2,7 @@
 This repository contains all of the JavaScript projects I have done through The Tech Academy's JavaScript Course.
 
 ## Projects
+* [Loops and Arrays Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project10_loops_arrays)
 * [Dev Tools Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Dev_Tools_Assignment)
 * [Defer Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Defer_Challenge)
 * [Asynch Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Async_Assignment)
@@ -23,6 +24,9 @@ This repository contains all of the JavaScript projects I have done through The 
 * [Concatenated String Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Concatenated%20_String_Challenge)
 * [String Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/String_Assignment)
 * [Alert and Expressions Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project1_expressions_alert)
+
+### Loops and Arrays Project
+  This was an HTML and JavaScript Project. It includes A while loop, a for loop, the length property, a funtion using an array, a function that uses a const keyword, the let keyword, the return statement, object creation using let, the break statement, and the continue statement.
 
 ### Dev Tools Assignment
   This assignment was to debug a script code (in an HTML document) using Dev tools.
