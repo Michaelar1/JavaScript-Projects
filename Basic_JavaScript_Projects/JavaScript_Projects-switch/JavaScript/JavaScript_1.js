@@ -35,5 +35,13 @@ function drinkMenu() {      //This uses the document.getElementsByClassName() me
 //Canvas
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
-ctx.font = "30px Arial";
-ctx.strokeText("Thank You!", 30, 50);
+ctx.font = "50px Arial";
+ctx.strokeText("Mange Tak!", 122, 100);
+ctx.strokeText("Thank You!", 125, 175);
+ctx.globalCompositeOperation = "source-over";
+    //Gradient
+var grd = ctx.createLinearGradient(0, 0, 0, 170);
+grd.addColorStop(0, "white");
+grd.addColorStop(1.5, "red");
+ctx.fillStyle = grd;
+ctx.fillRect(20, 20, 150, 100);
