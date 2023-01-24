@@ -23,7 +23,17 @@ function menuFunction() {       //Used switch statement to set up a return value
     }
     document.getElementById("output").innerHTML = orderOutput;
 }
+
+//getElementsByClassName() method
 function drinkMenu() {      //This uses the document.getElementsByClassName() method to change "Latte" to "Espresso."
     const list = document.getElementsByClassName("beverages")[0];
     list.getElementsByClassName("drink")[2].innerHTML = "Espresso";
 }
+
+
+
+//Canvas
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.strokeText("Thank You!", 30, 50);
