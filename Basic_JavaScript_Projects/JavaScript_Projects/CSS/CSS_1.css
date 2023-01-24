@@ -1,0 +1,33 @@
+/*Contact form styling*/
+.contact {
+    text-align: center;
+    font-family: 'Albert Sans', sans-serif;
+    color: #4d4d4d;
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: azure;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(212, 255, 255);
+    font-weight: 700;
+    color: darkslategrey;
+}
+
