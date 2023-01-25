@@ -147,7 +147,7 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
             if (y < y2) { y += 10;}
             //This condition is similar to the one above
             //This is necessary for the 6, 4, 2 win condtions
-            if (x >= x2 && y <= y2) { cancelAnimationFrame(animationLoop); }
+            if (x >= x2 && y <= y2) {cancelAnimationFrame(animationLoop); }
         }
     }
     //This function clears our canvas after our win line is drawn
@@ -166,5 +166,5 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
     //This line calls our main animation loop.
     animateLineDrawing();
     //This line waits 1 second. Then it clears the canvas, resets the game, and allows clicking again.
-    setTimeout(function () { clear(); resetGame(); }, 1000);
+    setTimeout(function () { clear(); resetGame();}, 1000);
 }
