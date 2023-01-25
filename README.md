@@ -2,7 +2,8 @@
 This repository contains all of the JavaScript projects I have done through The Tech Academy's JavaScript Course.
 
 ## Projects
-* [Switch Statement Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/JavaScript_Projects-switch)
+* [Arrow Function Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Arrow_Fucntion)
+* [Switch Statement Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/JavaScript_Projects)
 * [Loops and Arrays Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project10_loops_arrays)
 * [Dev Tools Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Dev_Tools_Assignment)
 * [Defer Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Defer_Challenge)
@@ -26,8 +27,11 @@ This repository contains all of the JavaScript projects I have done through The 
 * [String Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/String_Assignment)
 * [Alert and Expressions Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project1_expressions_alert)
 
-### Switch Statement Assignment
-  In this HTML and JavaScript assignment, I created an online order menu using the <select> tag to create a dropdown menu to select a food. This also uses the switch, case, break, and default statements to generate an output for the user after submitting their order.
+### Arrow Function Challenge
+  In this HTML project, I wrote a simple inline JavaScript function and then rewrote that function as an arrow function.
+
+### JavaScript Project
+  In this HTML and JavaScript assignment, I created an online order menu using the <select> tag to create a dropdown menu to select a food. This also uses the switch, case, break, and default statements to generate an output for the user after submitting their order. On another assignment, I created a contact form with HTML and CSS and validated it with JavaScript form validation. On the third assignment, I created an HTML list with data attributes with a JavaScript function that worked with those attributes. 
 
 ### Loops and Arrays Project
   This was an HTML and JavaScript Project. It includes A while loop, a for loop, the length property, a funtion using an array, a function that uses a const keyword, the let keyword, the return statement, object creation using let, the break statement, and the continue statement.
