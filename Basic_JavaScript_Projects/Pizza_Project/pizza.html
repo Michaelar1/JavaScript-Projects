@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<hmtl lang="en">
+    <head>
+        <title>Mama Mia! Pizzeria!</title>
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta name="author" content="Michaela R">
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="./Pizza_Favicons/favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./Pizza_Favicons/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./Pizza_Favicons/favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="./Pizza_Favicons/favicon_io/site.webmanifest">
+        <!-- JavaScript Link -->
+        <script src="./Pizza_JavaScript/Pizza.js" defer></script>
+        <!-- CSS Link -->
+        <link rel="stylesheet" type="text/css" href="./Pizza_CSS/Pizza.css">
+        <!-- Font Links -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="menuBG">
+            <div class="container"></div>
+                <h1 style="margin: 0 0px 20px;">Mama Mia! Pizzaria!</h1>
+                <h2 style="margin: 0 0px 200px;">Just like Mama used to make!</h2>
+                <input id="btnOrder" type="button" onclick="getReceipt()" value="Place Order">
+            </div>
+            <form id="frmMenu">
+                
+                    <div class="menu left top">
+                        <h3>Size:</h3>
+                        <input class="size" type="radio" name="Size" value="Personal Pizza">Personal Pizza<br>
+                        <input class="size" type="radio" name="Size" value="Small Pizza">Small Pizza<br>
+                        <input class="size" type="radio" name="Size" value="Medium Pizza">Medium Pizza<br>
+                        <input class="size" type="radio" name="Size" value="Large Pizza">Large Pizza<br>
+                        <input class="size" type="radio" name="Size" value="Extra Large Pizza">Extra Large Pizza<br>
+                    </div>
+                
+                <!-- I added this -->
+                
+                    <div class="menu right top">
+                        <h3>Crusts:</h3>
+                        <input class="crust" type="radio" name="Crust" value="Garlic & Parmesan">Garlic &amp; Parmesan<br>
+                        <input class="crust" type="radio" name="Crust" value="Whole Wheat">Whole Wheat<br>
+                        <input class="crust" type="radio" name="Crust" value="Stuffed Crust">Stuffed Crust<br>
+                        <input class="crust" type="radio" name="Crust" value="Gluten-Free">Gluten-Free<br>
+                    </div>
+                
+
+                <!-- I had already added my veggies into the toppings section before that assignment came along -->
+                
+                    <div class="menu left bottom">
+                        <h3>Toppings:</h3>
+                        <input class="toppings" type="checkbox" name="Topping" value="Extra Cheese">Extra Cheese<br>
+                        <input class="toppings" type="checkbox" name="Topping" value="Pepperoni">Pepperoni<br>
+                        <input class="toppings" type="checkbox" name="Topping" value="Sausage">Sausage<br>
+                        <input class="toppings" type="checkbox" name="Topping" value="Bacon">Bacon<br>
+                        <input class="toppings" type="checkbox" name="Topping" value="Ground Beef">Ground Beef<br>
+                        <input class="toppings" type="checkbox" name="Topping" value="Chicken">Chicken<br>
+                        <input class="toppings" type="checkbox" name="Topping" value="Mini-Meatballs">Mini-Meatballs<br>
+                        <input class="toppings" type="checkbox" name="Topping" value="Red Bell Pepper">Red Bell Pepper<br>
+                        <input class="toppings" type="checkbox" name="Topping" value="Caramelized Onions">Caramelized Onions<br>
+                        <input class="toppings" type="checkbox" name="Topping" value="Garlic">Garlic<br>
+                        <input class="toppings" type="checkbox" name="Topping" value="Broccoli">Broccoli<br>
+                        <input class="toppings" type="checkbox" name="Topping" value="Basil">Basil<br>
+                        <input class="toppings" type="checkbox" name="Topping" value="Pepperoccini">Pepperoccini<br>
+                        <input class="toppings" type="checkbox" name="Topping" value="Arugula">Arugula<br>
+                        <input class="toppings" type="checkbox" name="Topping" value="Pesto Drizzle">Pesto Drizzle<br>
+                        <input class="toppings" type="checkbox" name="Topping" value="Olives">Olives<br>
+                        <input class="toppings" type="checkbox" name="Topping" value="Cherry Tomatoes">Cherry Tomatoes<br>
+                        <input class="toppings" type="checkbox" name="Topping" value="Pineapple">Pineapple<br>
+                    </div>
+                
+
+                
+                    <div class="menu right bottom">
+                        <h3>Dipping Sauces:</h3>
+                        <input class="sauces" type="checkbox" name="Sauces" value="Extra Marinara">Extra Marinara<br>
+                        <input class="sauces" type="checkbox" name="Sauces" value="Spicy Marinara">Spicy Marinara<br>
+                        <input class="sauces" type="checkbox" name="Sauces" value="Bleu Cheese">Bleu Cheese<br>
+                        <input class="sauces" type="checkbox" name="Sauces" value="Ranch Dressing">Ranch Dressing<br>
+                        <input class="sauces" type="checkbox" name="Sauces" value="Barbecue Sauce">Barbecue Sauce<br>
+                        <input class="sauces" type="checkbox" name="Sauces" value="Alfredo Sauce">Alfredo Sauce<br>
+                        <input class="sauces" type="checkbox" name="Sauces" value="Creamy Italian Dressing">Creamy Italian Dressing<br>
+                        <input class="sauces" type="checkbox" name="Sauces" value="Pesto">Pesto<br>
+                        <input class="sauces" type="checkbox" name="Sauces" value="Mama's Garlic Sauce">Mama's Garlic Sauce<br>
+                    </div>
+                
+                <div id="cart">
+                    <div id="showText"></div>
+                    <div id="totalPrice"></div>
+                </div>
+            </form>
+        </div>
+    </body>
+</hmtl>
