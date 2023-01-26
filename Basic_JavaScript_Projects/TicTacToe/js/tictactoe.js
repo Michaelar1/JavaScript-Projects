@@ -12,10 +12,10 @@ function placeXorO(squareNumber) {
         //This condition checks whose turn it is
         if (activePlayer === "X") {
             //If the active player is equal to "X", the x.png is placed in HTML
-            select.style.backgroundImage = 'url("images/x.png")';
+            select.style.backgroundImage = 'url("images/x2.png")';
 
         } else {
-            select.style.backgroundImage = 'url("images/o.png")';
+            select.style.backgroundImage = 'url("images/o2.png")';
         }
         //squareNumber and activePlayer are concatenated together and added to an array
         selectedSquares.push(squareNumber + activePlayer);
@@ -28,7 +28,7 @@ function placeXorO(squareNumber) {
             activePlayer = "X";
         }
         //This function plays placement sound
-        audio("./media/place.mp3");
+        audio("./media/pop.mp3");
         //This condition checks to see if it is the computer's turn.
         if (activePlayer === "O") {
             //This function disables clicking for computer's turn
@@ -81,7 +81,7 @@ function checkWinConditions() {
     //This condition checks for a tie. If none of the above conditions are ment and 9 squares are selected, the code executes
     else if (selectedSquares.length >= 9) {
         //This function plays the tie game sound
-        audio('.media/tie.mp3');
+        audio('./media/gametie.mp3');
         //This function sets a .3 second timer before the resetGame is called.
         setTimeout(function () {resetGame(); }, 500);
     }
@@ -134,6 +134,8 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
         c.beginPath();
         //This method moves us to a new starting point in our line
         c.moveTo(x1, y1);
+        //indicates end point of line
+        c.lineTo(x, y);
         //This method sets the width of our line
         c.lineWidth = 10;
         //This method sets the color of our line
@@ -144,11 +146,19 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
         if (x1 <= x2 && y1 <= y2) {
             //This condition adds 10 to the previous x endpoint
             if (x < x2) {x += 10;}
+            //adds 10 to the previous y endpoint
             if (y < y2) { y += 10;}
-            //This condition is similar to the one above
-            //This is necessary for the 6, 4, 2 win condtions
-            if (x >= x2 && y <= y2) {cancelAnimationFrame(animationLoop); }
+            if (x >= x2 && y >= y2) {cancelAnimationFrame(animationLoop); }
         }
+        //This condition is similar to the one above
+        //This is necessary for the 6, 4, 2 win condtions
+        if (x <= x2 && y >= y2) {
+            if (x < x2) {x += 10;}
+            if (y > y2) {y -= 10;}
+            if (x >=x2 && y <= y2) {cancelAnimationFrame(animationLoop);}
+        }
+        
+    
     }
     //This function clears our canvas after our win line is drawn
     function clear() {
@@ -162,9 +172,22 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
     //This line disallows clicking while the win sound is playing
     disableClick();
     //this line plays the win sounds
-    audio("./media/winGame.mp3");
+    audio("./media/win.mp3");
     //This line calls our main animation loop.
     animateLineDrawing();
     //This line waits 1 second. Then it clears the canvas, resets the game, and allows clicking again.
     setTimeout(function () { clear(); resetGame();}, 1000);
+}
+
+//This fucntion resets the game in the eent of a tie or a win
+function resetGame() {
+    //This for loop iterates through each HTML square element.
+    for (let i=0; i < 9; i++){
+        //This variable gets the HTML element i
+        let square = document.getElementById(String(i));
+        //This removes our elements backgroundImage
+        square.style.backgroundImage = "";
+    }
+    //This resets the array so it is empty and we can start over
+    selectedSquares = [];
 }
