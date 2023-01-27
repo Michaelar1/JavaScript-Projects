@@ -10,13 +10,15 @@ function getReceipt() {
     for (var i = 0; i < crustArray.length; i++) {
         if (crustArray[i].checked) {
             var crustType = crustArray[i].value;
+        } else {
+            crustType = "Plain Crust ";
         }
     }
     for (var i = 0; i < sizeArray.length; i++) {
         if (sizeArray[i].checked) {
             var selectedSize = sizeArray[i].value;
             text1 = text1 + crustType + " " + selectedSize + "<br>";
-        }
+        } 
     }
     if (selectedSize === "Personal Pizza") {
         sizeTotal = 6;
