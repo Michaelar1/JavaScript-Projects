@@ -18,6 +18,7 @@
     height: 190px;
     margin: 0 auto;
     float: right;
+    color:#004d00;
 }
 
 .left {
@@ -53,6 +54,8 @@
     height: 190px;
     margin: 0px auto;
     float: left;
+    color: #004d00;
+    font-weight: bold;
 }
 
 #cart {

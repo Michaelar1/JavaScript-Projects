@@ -67,6 +67,8 @@ function getTopping(runningTotal, text1) {
     var sauceCount = selectedSauce.length;
     if (sauceCount >= 1 ) {
         sauceTotal = (sauceCount * 0.10);
+    } else {
+        sauceTotal = 0;
     }
     runningTotal = (runningTotal + toppingTotal + sauceTotal);
     console.log("total selected topping items: "+ toppingCount);
