@@ -1,5 +1,5 @@
 #menuBG {
-    width: 400px;
+    width: 600px;
     height: 200px;
     margin: 10px auto;
     background-color: #004d00;
@@ -7,9 +7,10 @@
 }
 
 #frmMenu {
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 700px;
     font-family: 'Libre Caslon Display, serif';
+    margin: auto;
 }
 
 #totalPrice {
@@ -18,7 +19,6 @@
     margin: 0 auto;
     float: right;
 }
-
 
 .left {
     width: 200px;  
@@ -62,9 +62,12 @@
 }
 
 #btnOrder {
-    margin: 0px 0px 0px 100px;
+    margin-left: 225px;
     width: 100px;
     height: 40px;
+    text-align: center;
+    color: darkslategrey;
+    font-weight: 600;
 }
 
 body {
@@ -75,12 +78,15 @@ body {
 h1 {
     font-family: 'Pacifico', cursive;
     color: #fff;
+    text-align: center;
+    margin-right: 20px;
 }
 
 h2 {
     font-family: 'Libre Caslon Display', serif;
     color: #fff;
-
+    text-align: center;
+    margin-right: 12px;
 }
 
 h3 {
@@ -89,4 +95,12 @@ h3 {
 
 input{
     text-align: justify;
+    font-family: 'Libre Caslon Display', serif;
+}
+
+.cheesepull {
+    width: 150px;
+    margin-top: 25px;
+    margin-left: 10px;
+    border-radius: 50%;
 }
