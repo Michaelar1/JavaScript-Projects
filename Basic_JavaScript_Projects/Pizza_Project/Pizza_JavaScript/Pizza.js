@@ -76,5 +76,5 @@ function getTopping(runningTotal, text1) {
     console.log("sauce text1" + text1);
     console.log("Purchase Total: "+"$"+ runningTotal.toFixed(2));
     document.getElementById("showText").innerHTML = text1;
-    document.getElementById("totalPrice").innerHTML = "<h3>Total: <strong>"+ runningTotal.toFixed(2) + "</strong></h3>";
+    document.getElementById("totalPrice").innerHTML = "<h3>Total: <strong>$"+ runningTotal.toFixed(2) + "</strong></h3>";
 };
