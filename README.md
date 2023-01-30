@@ -2,6 +2,7 @@
 This repository contains all of the JavaScript projects I have done through The Tech Academy's JavaScript Course.
 
 ## Projects
+* [Basic AJAX Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/AJAX)
 * [Pizza Menu Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Pizza_Project)
 * [Tic-Tac-Toe Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/TicTacToe)
 * [Arrow Function Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Arrow_Fucntion)
@@ -28,6 +29,9 @@ This repository contains all of the JavaScript projects I have done through The 
 * [Concatenated String Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Concatenated%20_String_Challenge)
 * [String Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/String_Assignment)
 * [Alert and Expressions Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project1_expressions_alert)
+
+### Basic AJAX project
+  This was a simple project to use AJAX and XAMPP to update an element of an HTML document in realtime.
 
 ### Pizza Menu Project
   This was an HTML, CSS, and JavaScript project. It featured an interactive menu that kept a running total of selected items and prices and displayed them at the bottom of the screen when the "Place Order" button is pressed.
