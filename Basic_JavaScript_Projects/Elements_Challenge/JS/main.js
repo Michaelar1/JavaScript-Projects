@@ -1,0 +1,1 @@
+document.body.innerHTML = "The body property sets or returns a document's body element. However, using this property overwrites all of the elements in the HTML body. "
