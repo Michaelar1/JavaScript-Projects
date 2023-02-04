@@ -2,6 +2,8 @@
 This repository contains all of the JavaScript projects I have done through The Tech Academy's JavaScript Course.
 
 ## Projects
+* [Challenges](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Challenges)
+* [jQuery Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/jQuery)
 * [Elements Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Elements_Challenge)
 * [Basic AJAX Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/AJAX)
 * [Pizza Menu Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Pizza_Project)
@@ -30,6 +32,12 @@ This repository contains all of the JavaScript projects I have done through The 
 * [Concatenated String Challenge](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Concatenated%20_String_Challenge)
 * [String Assignment](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/String_Assignment)
 * [Alert and Expressions Project](https://github.com/Michaelar1/JavaScript-Projects/tree/main/Basic_JavaScript_Projects/Project1_expressions_alert)
+
+### Challenges
+* jQuery Challenge - This challenge includes a basic HTML document with jQuery to use events, event handlers, and effects. I used the .click() method, the .append() method, and the .fadeOut() method.
+
+### jQuery Project
+  This was a simple HTML and jQuery project, which was meant to introduce basic jQuery syntax and functions. 
 
 ### Elements Challenge
   This challenge was to successfully use one of the HTML DOM properties using HTML and JavaScript.
