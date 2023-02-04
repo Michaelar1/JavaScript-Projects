@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>XML Challenge</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Michaela R">
+    </head>
+    <body>
+        <p id="XML_Example"></p>
+        <script>
+            var XML_Parser, XML_Document;
+
+            //creates a text string
+            var Movie = "<movie>" + "<title>Zootopia</title>" + "<director>Byron Howard and Rich Moore</director>" + "<starring>Ginnifer Goodwin and Jason Bates</starring>" + "<year>2016</year>" + "<movie>";
+
+            //creates an XML DOM parser
+            XML_Parser = new DOMParser();
+            
+            //creates a new XML DOM object using the text string
+            XML_Document = XML_Parser.parseFromString(Movie,"text/xml");
+
+            document.getElementById("XML_Example").innerHTML = XML_Document.getElementsByTagName("starring")[0].childnodes[0].nodeValue;
+        </script>
+    </body>
+</html>
