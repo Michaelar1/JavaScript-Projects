@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bookmark Challenge</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Michaela R">
+        <link rel="stylesheet" type="text/css" href="./main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <!--Nav-->
+        <div id="nav">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!--End Nav-->
+
+        <!--Home-->
+        <div id="home">
+            <h1>Welcome to the Lorem Ipsum Foundation</h1>
+            <p>Lorem ipsum dolor sit amet.</p><br>
+            <p>Want to learn more? <a href="#about">Jump to About</a></p><br>
+            <p>Questions, Comments, Concerns? <a href="#contact">Contact Us!</a></p>
+        </div>
+        <!--End Home-->
+
+        <br>
+        <br>
+
+
+        <!--About-->
+        <div id="about">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula libero aliquam risus condimentum, sit amet ullamcorper odio auctor. Nunc ac nisi nunc. Aliquam porttitor vel arcu at rhoncus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent quis vulputate leo. Sed justo sapien, facilisis sed luctus vel, dictum id quam. Donec odio ex, euismod quis ante malesuada, viverra cursus nibh. Nam eget condimentum enim. <br>
+
+                Nunc pulvinar orci ut risus mollis varius. In hac habitasse platea dictumst. Pellentesque pharetra nisl vel turpis semper iaculis. Integer nec augue quis lorem ultricies sodales. Morbi tincidunt vitae ligula eget tempus. Ut eget neque in risus fermentum maximus. Curabitur rhoncus dui eros, et tempor quam congue sit amet. Suspendisse ut justo at diam gravida porttitor tempus eget ipsum. Cras ac semper nibh. Pellentesque at lectus vehicula metus aliquam feugiat accumsan at leo. Sed at odio lacinia, luctus magna nec, imperdiet nulla. Curabitur est est, ornare vel tellus et, rutrum ornare ante. In convallis orci eu arcu efficitur, at facilisis sem varius. Interdum et malesuada fames ac ante ipsum primis in faucibus. <br>
+                
+                Donec viverra placerat dolor. Curabitur imperdiet nec sem sed feugiat. Pellentesque nisi est, elementum ac condimentum efficitur, tempus vestibulum massa. Donec congue hendrerit enim tempor rhoncus. Mauris tempus sodales magna eu dapibus. Vivamus quam sem, ornare in nisi quis, vehicula ultrices nibh. Pellentesque condimentum ex in orci ultricies, nec pretium lectus scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur ut consequat ante, non tempor sem. In velit enim, lacinia nec quam quis, commodo tempus tortor. Phasellus varius imperdiet porta. Nullam tempor vulputate felis. Praesent aliquet vulputate nulla in cursus. Sed rhoncus placerat finibus. Fusce cursus vehicula fermentum. Mauris finibus pharetra ligula quis viverra.<br>
+                
+                Aliquam a mauris tortor. Nullam cursus auctor ipsum in gravida. Duis posuere ipsum lorem, ac molestie risus suscipit at. Morbi venenatis magna non sollicitudin lacinia. Donec nec nisi augue. Duis enim sem, ultrices eu diam id, interdum ultrices nisi. Donec et ex ipsum. Pellentesque malesuada sed tellus at ultricies. Sed vestibulum eget tellus sit amet sodales. Fusce efficitur rhoncus lorem, ac volutpat lacus aliquam vel. Integer malesuada nisl sit amet pretium mattis. Nunc eu nisl sed eros tristique aliquam vitae eget nibh. Curabitur rhoncus ligula sit amet viverra sodales.<br>
+                
+                Aliquam tempor urna in erat dignissim feugiat. Etiam gravida vitae odio in commodo. Integer vehicula id libero eget ornare. Maecenas ullamcorper lacus tortor, eu facilisis mauris sodales nec. Integer vel tellus a augue lobortis lobortis et nec lorem. Proin in turpis in velit vulputate condimentum eget sed lacus. Integer ut diam vel sapien lacinia elementum ut sit amet massa. Etiam fermentum, lacus nec tempor aliquam, diam urna rutrum sem, a ullamcorper urna tortor id tellus. Ut consequat metus sed sagittis scelerisque. Quisque quis augue bibendum, gravida mi id, condimentum nisl. In feugiat accumsan tellus, in ultrices velit auctor non.</p>
+                <br>
+                <a href="#home">Go Home</a>
+                <p>or</p>
+                <a href="#contact">Contact Us</a>
+        </div>
+        <!--End About-->
+
+        <br>
+        <br>
+
+        <!--Contact-->
+        <div id="contact">
+            <h3>Contact Us</h3>
+            <form>
+                <input type="text" name="fname" id="fname" placeholder="First Name:"><br>
+                <input type="text" name="lname" id="lname" placeholder="Last Name:"><br>
+                <input type="email" name="email" id="email" placeholder="Email:"><br>
+                <input type="text" name="msg" id="msg" placeholder="Enter your message here:"><br>
+                <input type="submit" value="Submit">
+            </form>
+            <br>
+            <a href="#home">Go Home</a>
+            <p>Learn more <a href="#about">About Us</a>.</p>
+        </div>
+        <!--End Contact-->
+        
+    </body>
+    <!--Script (for smooth scrolling effect)-->
+    <script>
+        $(document).ready(function(){
+            //Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+                //Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    //Prevent default anchor click behavior
+                    event.prefentDefault();
+
+                    //Store hash
+                    var hash = this.hash;
+
+                    //Using jQuery's animate() method to add smooth page scroll to the specified area
+                    $('html, body').animate ({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function (){
+                        //Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                }   //End if
+            });
+        });
+    </script>
+</html>
