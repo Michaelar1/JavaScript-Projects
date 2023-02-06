@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Challenge</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Michaela R">
+        <script src="./main.js" defer></script>
+    </head>
+    
+    <body>
+        <form name="myForm" id="myForm" onsubmit="return validateForm()">
+            <label for="fname">Please enter your first name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+            <label for="lname">Please enter your last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+            <label for="phone">Please enter your phone number:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

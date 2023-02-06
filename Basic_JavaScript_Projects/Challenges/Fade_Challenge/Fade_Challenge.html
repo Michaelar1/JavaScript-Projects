@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fade Challenge</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Michaela R">
+        <link rel="stylesheet" type="text/css" href="./Fade_Challenge/main.css">
+    </head>
+
+    <body class="fade-out">
+        <script>
+            document.body.classList.add('fade-out');
+            
+        </script>
+        
+        <h1>I'm Making My Page Fade In!</h1>
+        <p>By using a fade-out class in my body, I can combine CSS and JavaScript to fade my page in.</p>
+
+        <script>
+             window.addEventListener('DOMContentLoaded', () => {
+                document.body.classList.remove('fade-out');
+            });
+        </script>
+    </body>
+
+</html>
