@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JSON.Stringify() Assignment</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Michaela R">
+    </head>
+
+    <body>
+      <p id="myPuppy"></p>
+      
+      <script>
+        // JavaScript object
+        var puppy = {"name": "Strider", "age": "9 months", "breed":"Golden Retriever-Siberian Husky Mix", "color":"black, tan, and white"};
+        // Covert to string
+        var myJSON = JSON.stringify(puppy);
+        document.getElementById("myPuppy").innerHTML = myJSON;
+      </script>
+    </body>
+</html>
