@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JSON.Parse() Assignment</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Michaela R">
+
+    </head>
+
+    <body>
+        <p id="myPuppy"></p>
+
+        <script>
+
+            //JSON string variable
+            var puppy = JSON.parse('{"name": "Strider", "age": "9 month", "breed":"Golden Retriever-Siberian Husky Mix", "color":"black, tan, and white"}');
+            //Convert to object
+            document.getElementById("myPuppy").innerHTML = puppy.name + " the " puppy.age + "-old " + puppy.breed;
+        </script>
+    </body>
+</html>
