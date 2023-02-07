@@ -13,9 +13,10 @@
         <script>
 
             //JSON string variable
-            var puppy = JSON.parse('{"name": "Strider", "age": "9 month", "breed":"Golden Retriever-Siberian Husky Mix", "color":"black, tan, and white"}');
+            var puppy = '{"name": "Strider", "age": "9 month", "breed":"Golden Retriever-Siberian Husky Mix", "color":"black, tan, and white"';
             //Convert to object
-            document.getElementById("myPuppy").innerHTML = puppy.name + " the " puppy.age + "-old " + puppy.breed;
+            var JSONstring = JSON.parse(puppy);
+            document.getElementById("myPuppy").innerHTML = JSONstring.name + " the " + JSONstring.age + "-old puppy";
         </script>
     </body>
 </html>
