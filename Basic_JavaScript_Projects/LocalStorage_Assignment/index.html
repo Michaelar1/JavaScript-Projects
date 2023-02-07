@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>localStorage() Property Assignment</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Michaela R">
+    </head>
+
+    <body>
+        <p>The saved name is:</p>
+        <p id="name"></p>
+
+        <script>
+            //Set item
+            localStorage.setItem("firstname","Michaela");
+
+            //Retrieve item
+            document.getElementById("name").innerHTML = localStorage.getItem("firstname");
+        </script>
+    </body>
+</html>
