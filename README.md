@@ -35,6 +35,15 @@ This repository contains all of the JavaScript projects I have done through The 
 
 ### Challenges
 * jQuery Challenge - This challenge includes a basic HTML document with jQuery to use events, event handlers, and effects. I used the .click() method, the .append() method, and the .fadeOut() method.
+* XML Challenge - This challenge used XML and an XML parser to create a DOM object and to print one of the child nodes.
+* VW Unit Challenge - This challenge used CSS in HTML to create responsive text that resizes based on screen size.
+* Fade Challenge - This challenge used HTML, CSS, and JavaScript to create a fade-in effect when the page loads.
+* Form Challenge - This was a HMTL and JavaScript challenge to create a form that is validated in JavaScript.
+* Pop Contact Form Challenge - This was an HTML, CSS, and JavaScript challenge to create a popup contact form.
+* Animation Challenge - This was an HTML and CSS challenge to learn about the @keyframes rule and apply it to animate an element.
+* Zoom Challenge - This was an HTML and CSS challenge to create an @keyframes animation to zoom in an out on an image.
+* Bookmark Challenge - This was an HTML, CSS, and JavaScript/jQuery challenge to create an HTML page with smooth scrolling to different sections of the page using bookmarks.
+* Slideshow Challenge: This was an HTML, CSS, and JavaScript challenge to create an automatic slideshow.
 
 ### jQuery Project
   This was a simple HTML and jQuery project, which was meant to introduce basic jQuery syntax and functions. 
